@@ -1,6 +1,7 @@
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import Projects from "./components/Projects.jsx";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Projects />
       </main>
     </>
   );
