@@ -71,8 +71,20 @@
   }
 }
 
-.projects {
+.projects,
+.community,
+.hall-of-fame {
   max-width: 1280px;
   margin: 0 auto;
   padding: 64px 24px;
+}
+
+.community-card {
+  background-color: #e7eadc;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.community-card + .community-card {
+  margin-top: 16px;
 }
