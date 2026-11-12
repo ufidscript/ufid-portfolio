@@ -3,7 +3,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Projects from "./components/Projects.jsx";
 import Community from "./components/Community.jsx";
-import HallofFame from "./components/HallofFame.jsx";
+import HallOfFame from "./components/HallofFame.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Hero />
         <Projects />
         <Community />
-        <HallofFame />
+        <HallOfFame />
       </main>
       <Footer />
     </>
