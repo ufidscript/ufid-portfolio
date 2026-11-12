@@ -26,6 +26,9 @@
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   max-width: 1280px;
   margin: 0 auto;
   padding: 48px 24px;
@@ -159,4 +162,28 @@
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 24px;
+}
+
+.hero-content {
+  min-width: 0;
+}
+
+@media (min-width: 900px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  .hero-content {
+    order: -1;
+    flex: 1;
+  }
+
+  .hero-portrait {
+    flex-shrink: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
 }
