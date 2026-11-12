@@ -13,7 +13,7 @@ const projects = [
     title: "Brief2Done",
     description:
       "A local AI tool that turns assignment briefs into a clearer task, requirements, and checklist.",
-    githubUrl: "https://github.com/ufidscript/brief2done",
+    // githubUrl: "https://github.com/ufidscript/brief2done",
   },
 ];
 
