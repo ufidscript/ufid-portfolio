@@ -110,3 +110,7 @@
   outline: 3px solid #536b38;
   outline-offset: 4px;
 }
+
+.project-card + .project-card {
+  margin-top: 24px;
+}
