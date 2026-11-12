@@ -1,6 +1,15 @@
+import portrait from '../assets/ibrahim.png';
+
 function Hero() {
   return (
     <section className="hero">
+      <img
+  className="hero-portrait"
+  src={portrait}
+  alt="Ibrahim Danjuma"
+  width="220"
+  height="220"
+/>
       <p className="hero-label">
         Ibrahim Danjuma · Developer & community builder
       </p>
