@@ -146,3 +146,7 @@
   outline: 3px solid #536b38;
   outline-offset: 4px;
 }
+
+.achievement-card + .achievement-card {
+  margin-top: 24px;
+}
