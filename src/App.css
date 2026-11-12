@@ -114,3 +114,14 @@
 .project-card + .project-card {
   margin-top: 24px;
 }
+
+.project-card a {
+  color: #253d2a;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.project-card a:focus-visible {
+  outline: 3px solid #536b38;
+  outline-offset: 4px;
+}

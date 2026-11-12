@@ -6,12 +6,14 @@ const projects = [
     title: "ObaordX",
     description:
       "A local community memory and handover app for saving decisions, lessons, and unfinished work.",
+    githubUrl: "https://github.com/ufidscript/onboardx",
   },
   {
     id: "brief2done",
     title: "Brief2Done",
     description:
       "A local AI tool that turns assignment briefs into a clearer task, requirements, and checklist.",
+    githubUrl: "https://github.com/ufidscript/brief2done",
   },
 ];
 
@@ -25,6 +27,7 @@ function Projects() {
           key={projects.id}
           title={projects.title}
           description={projects.description}
+          githubUrl={projects.githubUrl}
         />
       ))}
     </section>
