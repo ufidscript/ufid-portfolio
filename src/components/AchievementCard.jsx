@@ -4,6 +4,7 @@ function AchievementCard({
   issuedDate,
   credentialUrl,
   imageUrl,
+  dateTime,
 }) {
   return (
     <article className="achievement-card">
@@ -11,7 +12,9 @@ function AchievementCard({
 
       <h3>{title}</h3>
       <p>{issuer}</p>
-      <p>Issued {issuedDate}</p>
+      <p>
+        Issued <time dateTime={dateTime}>{issuedDate}</time>
+      </p>
 
       <a href={credentialUrl}>Verify badge on Credly</a>
     </article>
