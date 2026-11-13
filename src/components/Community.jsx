@@ -7,7 +7,7 @@ const communities = [
     role: "Campus Club Lead",
     description:
       "I help students learn Microsoft technologies through workshops, shared resources, and community learning activities, with a focus on practical skills and certification preparation.",
-    startDate: "2026-23-10",
+    startDate: "October 2026",
     endDate: null,
   },
 
@@ -39,16 +39,18 @@ function Community() {
         I contribute to student tech communities by organising activities,
         sharing resources, and helping others learn.
       </p>
-      {communities.map((community) => (
-        <CommunityCard
-          key={community.id}
-          name={community.name}
-          role={community.role}
-          description={community.description}
-          startDate={community.startDate}
-          endDate={community.endDate}
-        />
-      ))}
+      <div className="community-grid">
+        {communities.map((community) => (
+          <CommunityCard
+            key={community.id}
+            name={community.name}
+            role={community.role}
+            description={community.description}
+            startDate={community.startDate}
+            endDate={community.endDate}
+          />
+        ))}
+      </div>
     </section>
   );
 }
