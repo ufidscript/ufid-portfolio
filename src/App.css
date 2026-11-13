@@ -114,10 +114,6 @@
   outline-offset: 4px;
 }
 
-.project-card + .project-card {
-  margin-top: 24px;
-}
-
 .project-card a {
   color: #253d2a;
   text-decoration: underline;
@@ -186,4 +182,28 @@
     margin-bottom: 0;
     max-width: 100%;
   }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.project-card {
+  background-color: #e7eadc;
+  padding: 24px;
+  border-radius: 12px;
 }
