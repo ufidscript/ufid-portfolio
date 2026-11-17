@@ -33,18 +33,19 @@ function HallOfFame() {
         Milestones, certificates, and badges from my learning and community
         journey.
       </p>
-
-      {achievements.map((achievement) => (
-        <AchievementCard
-          key={achievement.id}
-          title={achievement.title}
-          issuer={achievement.issuer}
-          issuedDate={achievement.issuedDate}
-          dateTime={achievement.dateTime}
-          credentialUrl={achievement.credentialUrl}
-          imageUrl={achievement.imageUrl}
-        />
-      ))}
+      <div className="achievements-grid">
+        {achievements.map((achievement) => (
+          <AchievementCard
+            key={achievement.id}
+            title={achievement.title}
+            issuer={achievement.issuer}
+            issuedDate={achievement.issuedDate}
+            dateTime={achievement.dateTime}
+            credentialUrl={achievement.credentialUrl}
+            imageUrl={achievement.imageUrl}
+          />
+        ))}
+      </div>
     </section>
   );
 }
