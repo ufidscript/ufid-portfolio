@@ -142,10 +142,6 @@
   outline-offset: 4px;
 }
 
-.achievement-card + .achievement-card {
-  margin-top: 24px;
-}
-
 .hero-portrait {
   display: block;
   object-position: center top;
@@ -192,12 +188,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
 .project-card {
   background-color: #e7eadc;
   padding: 24px;
@@ -220,10 +210,4 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
-}
-
-@media (min-width: 768px) {
-  .achievements-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
