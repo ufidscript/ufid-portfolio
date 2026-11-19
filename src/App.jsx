@@ -5,6 +5,7 @@ import Projects from "./components/Projects.jsx";
 import Community from "./components/Community.jsx";
 import HallOfFame from "./components/HallOfFame.jsx";
 import Footer from "./components/Footer.jsx";
+import Workshops from "./components/Workshop.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Projects />
         <Community />
+        <Workshops />
         <HallOfFame />
       </main>
       <Footer />
