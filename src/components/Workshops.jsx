@@ -1,4 +1,5 @@
 import WorkshopCard from "./WorkshopCard.jsx";
+import workshopPhoto from "../assets/notion-build-session.jpeg";
 
 function Workshops() {
   return (
@@ -12,6 +13,8 @@ function Workshops() {
         dateTime="2026-11-18"
         displayDate="18 November 2026"
         description="Guided beginners through building a Notion event-planning workspace to organise plans, tasks, and resources. Demonstrated how understanding a problem helps shape a useful workspace. Participants then worked in groups to identify problems and build their own solutions during a mini buildathon, with three teams recognised as winners."
+        imageSrc={workshopPhoto}
+        imageAlt="Me at The Build Session at FUTMinna"
       />
     </section>
   );

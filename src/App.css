@@ -227,3 +227,12 @@
   color: #536b38;
   font-size: 14px;
 }
+
+.workshop-photo {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
